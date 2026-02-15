@@ -1,0 +1,546 @@
+Starting XRift bot with nickname: はるぼ
+node:internal/process/promises:394
+    triggerUncaughtException(err, true /* fromPromise */);
+    ^
+
+browserType.launch: Target page, context or browser has been closed
+Browser logs:
+
+<launching> /home/node/.cache/ms-playwright/chromium_headless_shell-1208/chrome-headless-shell-linux64/chrome-headless-shell --disable-field-trial-config --disable-background-networking --disable-background-timer-throttling --disable-backgrounding-occluded-windows --disable-back-forward-cache --disable-breakpad --disable-client-side-phishing-detection --disable-component-extensions-with-background-pages --disable-component-update --no-default-browser-check --disable-default-apps --disable-dev-shm-usage --disable-extensions --disable-features=AvoidUnnecessaryBeforeUnloadCheckSync,BoundaryEventDispatchTracksNodeRemoval,DestroyProfileOnBrowserClose,DialMediaRouteProvider,GlobalMediaControls,HttpsUpgrades,LensOverlay,MediaRouter,PaintHolding,ThirdPartyStoragePartitioning,Translate,AutoDeElevate,RenderDocument,OptimizationHints --enable-features=CDPScreenshotNewSurface --allow-pre-commit-input --disable-hang-monitor --disable-ipc-flooding-protection --disable-popup-blocking --disable-prompt-on-repost --disable-renderer-backgrounding --force-color-profile=srgb --metrics-recording-only --no-first-run --password-store=basic --use-mock-keychain --no-service-autorun --export-tagged-pdf --disable-search-engine-choice-screen --unsafely-disable-devtools-self-xss-warnings --edge-skip-compat-layer-relaunch --enable-automation --disable-infobars --disable-search-engine-choice-screen --disable-sync --enable-unsafe-swiftshader --headless --hide-scrollbars --mute-audio --blink-settings=primaryHoverType=2,availableHoverTypes=2,primaryPointerType=4,availablePointerTypes=4 --no-sandbox --no-sandbox --disable-setuid-sandbox --user-data-dir=/tmp/playwright_chromiumdev_profile-7FU6Dv --remote-debugging-pipe --no-startup-window
+<launched> pid=125
+[pid=125][err] /home/node/.cache/ms-playwright/chromium_headless_shell-1208/chrome-headless-shell-linux64/chrome-headless-shell: error while loading shared libraries: libXfixes.so.3: cannot open shared object file: No such file or directory
+Call log:
+[2m  - <launching> /home/node/.cache/ms-playwright/chromium_headless_shell-1208/chrome-headless-shell-linux64/chrome-headless-shell --disable-field-trial-config --disable-background-networking --disable-background-timer-throttling --disable-backgrounding-occluded-windows --disable-back-forward-cache --disable-breakpad --disable-client-side-phishing-detection --disable-component-extensions-with-background-pages --disable-component-update --no-default-browser-check --disable-default-apps --disable-dev-shm-usage --disable-extensions --disable-features=AvoidUnnecessaryBeforeUnloadCheckSync,BoundaryEventDispatchTracksNodeRemoval,DestroyProfileOnBrowserClose,DialMediaRouteProvider,GlobalMediaControls,HttpsUpgrades,LensOverlay,MediaRouter,PaintHolding,ThirdPartyStoragePartitioning,Translate,AutoDeElevate,RenderDocument,OptimizationHints --enable-features=CDPScreenshotNewSurface --allow-pre-commit-input --disable-hang-monitor --disable-ipc-flooding-protection --disable-popup-blocking --disable-prompt-on-repost --disable-renderer-backgrounding --force-color-profile=srgb --metrics-recording-only --no-first-run --password-store=basic --use-mock-keychain --no-service-autorun --export-tagged-pdf --disable-search-engine-choice-screen --unsafely-disable-devtools-self-xss-warnings --edge-skip-compat-layer-relaunch --enable-automation --disable-infobars --disable-search-engine-choice-screen --disable-sync --enable-unsafe-swiftshader --headless --hide-scrollbars --mute-audio --blink-settings=primaryHoverType=2,availableHoverTypes=2,primaryPointerType=4,availablePointerTypes=4 --no-sandbox --no-sandbox --disable-setuid-sandbox --user-data-dir=/tmp/playwright_chromiumdev_profile-7FU6Dv --remote-debugging-pipe --no-startup-window[22m
+[2m  - <launched> pid=125[22m
+[2m  - [pid=125][err] /home/node/.cache/ms-playwright/chromium_headless_shell-1208/chrome-headless-shell-linux64/chrome-headless-shell: error while loading shared libraries: libXfixes.so.3: cannot open shared object file: No such file or directory[22m
+[2m  - [pid=125] <gracefully close start>[22m
+[2m  - [pid=125] <kill>[22m
+[2m  - [pid=125] <will force kill>[22m
+[2m  - [pid=125] exception while trying to kill process: Error: kill ESRCH[22m
+[2m  - [pid=125] <process did exit: exitCode=127, signal=null>[22m
+[2m  - [pid=125] starting temporary directories cleanup[22m
+[2m  - [pid=125] finished temporary directories cleanup[22m
+[2m  - [pid=125] <gracefully close end>[22m
+
+    at /home/node/.openclaw/workspace/xrift-bot/bot.js:10:34
+    at Object.<anonymous> (/home/node/.openclaw/workspace/xrift-bot/bot.js:93:3)
+
+Node.js v22.22.0
+Starting XRift bot with nickname: はるぼ
+node:internal/process/promises:394
+    triggerUncaughtException(err, true /* fromPromise */);
+    ^
+
+browserType.launch: 
+╔══════════════════════════════════════════════════════╗
+║ Host system is missing dependencies to run browsers. ║
+║ Missing libraries:                                   ║
+║     libX11-xcb.so.1                                  ║
+║     libXcursor.so.1                                  ║
+║     libXfixes.so.3                                   ║
+║     libgtk-3.so.0                                    ║
+║     libgdk-3.so.0                                    ║
+╚══════════════════════════════════════════════════════╝
+    at /home/node/.openclaw/workspace/xrift-bot/bot.js:10:33
+    at Object.<anonymous> (/home/node/.openclaw/workspace/xrift-bot/bot.js:103:3) {
+  name: 'Error'
+}
+
+Node.js v22.22.0
+/home/node/.openclaw/workspace/xrift-bot/bot.js:26
+    args: [
+        ^
+
+SyntaxError: Unexpected token ':'
+    at wrapSafe (node:internal/modules/cjs/loader:1638:18)
+    at Module._compile (node:internal/modules/cjs/loader:1680:20)
+    at Object..js (node:internal/modules/cjs/loader:1839:10)
+    at Module.load (node:internal/modules/cjs/loader:1441:32)
+    at Function._load (node:internal/modules/cjs/loader:1263:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:328:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:237:24)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:171:5)
+    at node:internal/main/run_main_module:36:49
+
+Node.js v22.22.0
+Starting XRift bot with nickname: はるぼ
+/home/node/.openclaw/workspace/xrift-bot/node_modules/puppeteer-core/lib/cjs/puppeteer/node/BrowserLauncher.js:334
+                    throw new Error(`Could not find Chrome (ver. ${this.puppeteer.browserVersion}). This can occur if either\n` +
+                          ^
+
+Error: Could not find Chrome (ver. 145.0.7632.67). This can occur if either
+ 1. you did not perform an installation before running the script (e.g. `npx puppeteer browsers install chrome`) or
+ 2. your cache path is incorrectly configured (which is: /home/node/.cache/puppeteer).
+For (2), check out our guide on configuring puppeteer at https://pptr.dev/guides/configuration.
+    at ChromeLauncher.resolveExecutablePath (/home/node/.openclaw/workspace/xrift-bot/node_modules/puppeteer-core/lib/cjs/puppeteer/node/BrowserLauncher.js:334:27)
+    at ChromeLauncher.computeLaunchArguments (/home/node/.openclaw/workspace/xrift-bot/node_modules/puppeteer-core/lib/cjs/puppeteer/node/ChromeLauncher.js:94:24)
+    at async ChromeLauncher.launch (/home/node/.openclaw/workspace/xrift-bot/node_modules/puppeteer-core/lib/cjs/puppeteer/node/BrowserLauncher.js:85:28)
+    at async /home/node/.openclaw/workspace/xrift-bot/bot.js:10:19
+
+Node.js v22.22.0
+Starting XRift bot with nickname: はるぼ
+/home/node/.openclaw/workspace/xrift-bot/node_modules/puppeteer-core/lib/cjs/puppeteer/node/BrowserLauncher.js:334
+                    throw new Error(`Could not find Chrome (ver. ${this.puppeteer.browserVersion}). This can occur if either\n` +
+                          ^
+
+Error: Could not find Chrome (ver. 145.0.7632.67). This can occur if either
+ 1. you did not perform an installation before running the script (e.g. `npx puppeteer browsers install chrome`) or
+ 2. your cache path is incorrectly configured (which is: /home/node/.cache/puppeteer).
+For (2), check out our guide on configuring puppeteer at https://pptr.dev/guides/configuration.
+    at ChromeLauncher.resolveExecutablePath (/home/node/.openclaw/workspace/xrift-bot/node_modules/puppeteer-core/lib/cjs/puppeteer/node/BrowserLauncher.js:334:27)
+    at ChromeLauncher.computeLaunchArguments (/home/node/.openclaw/workspace/xrift-bot/node_modules/puppeteer-core/lib/cjs/puppeteer/node/ChromeLauncher.js:94:24)
+    at async ChromeLauncher.launch (/home/node/.openclaw/workspace/xrift-bot/node_modules/puppeteer-core/lib/cjs/puppeteer/node/BrowserLauncher.js:85:28)
+    at async /home/node/.openclaw/workspace/xrift-bot/bot.js:10:19
+
+Node.js v22.22.0
+Starting XRift bot: はるぼ
+/home/node/.openclaw/workspace/xrift-bot/node_modules/puppeteer-core/lib/cjs/puppeteer/node/BrowserLauncher.js:334
+                    throw new Error(`Could not find Chrome (ver. ${this.puppeteer.browserVersion}). This can occur if either\n` +
+                          ^
+
+Error: Could not find Chrome (ver. 145.0.7632.67). This can occur if either
+ 1. you did not perform an installation before running the script (e.g. `npx puppeteer browsers install chrome`) or
+ 2. your cache path is incorrectly configured (which is: /home/node/.cache/puppeteer).
+For (2), check out our guide on configuring puppeteer at https://pptr.dev/guides/configuration.
+    at ChromeLauncher.resolveExecutablePath (/home/node/.openclaw/workspace/xrift-bot/node_modules/puppeteer-core/lib/cjs/puppeteer/node/BrowserLauncher.js:334:27)
+    at ChromeLauncher.computeLaunchArguments (/home/node/.openclaw/workspace/xrift-bot/node_modules/puppeteer-core/lib/cjs/puppeteer/node/ChromeLauncher.js:94:24)
+    at async ChromeLauncher.launch (/home/node/.openclaw/workspace/xrift-bot/node_modules/puppeteer-core/lib/cjs/puppeteer/node/BrowserLauncher.js:85:28)
+    at async /home/node/.openclaw/workspace/xrift-bot/bot.js:10:19
+
+Node.js v22.22.0
+Starting XRift bot: はるぼ
+node:internal/process/promises:394
+    triggerUncaughtException(err, true /* fromPromise */);
+    ^
+
+browserType.launch: Executable doesn't exist at /home/node/.cache/ms-playwright/chromium_headless_shell-1208/chrome-headless-shell-linux64/chrome-headless-shell
+╔═════════════════════════════════════════════════════════════════════════╗
+║ Looks like Playwright Test or Playwright was just installed or updated. ║
+║ Please run the following command to download new browsers:              ║
+║                                                                         ║
+║     npx playwright install                                              ║
+║                                                                         ║
+║ <3 Playwright Team                                                      ║
+╚═════════════════════════════════════════════════════════════════════════╝
+    at /home/node/.openclaw/workspace/xrift-bot/bot.js:10:34
+    at Object.<anonymous> (/home/node/.openclaw/workspace/xrift-bot/bot.js:73:3) {
+  name: 'Error'
+}
+
+Node.js v22.22.0
+Starting XRift bot: はるぼ
+Page loaded
+VRM block enabled
+Nickname entered
+Joined
+Error: page.waitForSelector: Timeout 60000ms exceeded.
+Call log:
+[2m  - waiting for locator('canvas') to be visible[22m
+
+    at /home/node/.openclaw/workspace/xrift-bot/bot.js:47:16 {
+  name: 'TimeoutError'
+}
+Starting XRift bot: はるぼ
+VRM block enabled
+Page loaded
+Looking for nickname input...
+Nickname input found
+Nickname entered
+Looking for join button...
+First join button clicked
+Buttons found: 2
+Second join button clicked
+Waiting for world...
+World load error: page.waitForSelector: Timeout 60000ms exceeded.
+Call log:
+[2m  - waiting for locator('canvas') to be visible[22m
+
+Current page state: 
+    <div id="root"><div class="_container_1abjc_1 "><div class="_card_1abjc_12 _glass_1abjc_19" style="max-width: 400px;"><header class="_header_1gs7c_1"><h1 class="_title_1gs7c_6"><img alt="XRift" class="_logoImage_1gs7c_18" src="/xrift.svg"></h1></header><div class="_tabContainer_1gs7c_29"><button class="_tab_1gs7c_29 _active_1gs7c_57">ログイン</button><button class="_tab_1gs7c_29 ">新規登録</button></div><form class="_formContainer_1gs7c_72"><div class="_inputGroup_1v43r_1"><label for="email" class="_label_bjgj8_1">メールアドレス</label><input id="email" class="_input_1v43r_1  " placeholder="example@example.com" required="" type="email" value="" style=""></div><div class="_inputGroup_1v43r_1"><label for="password" class="_label_bjgj8_1">パスワード</label><input id="password" class="_input_1v43r_1  " placeholder="パスワードを入力" required="" minlength="6" type="password" value="" style=""></div><button class="_button_i2hag_1 _primary_i2hag_31 " disabled="" type="submit">ログイン</button></form><div class="_divide
+Error: page.waitForSelector: Timeout 60000ms exceeded.
+Call log:
+[2m  - waiting for locator('canvas') to be visible[22m
+
+    at /home/node/.openclaw/workspace/xrift-bot/bot.js:71:14 {
+  name: 'TimeoutError'
+}
+Starting XRift bot: はるぼ
+node:internal/process/promises:394
+    triggerUncaughtException(err, true /* fromPromise */);
+    ^
+
+browserType.launch: Executable doesn't exist at /home/node/.cache/ms-playwright/chromium_headless_shell-1208/chrome-headless-shell-linux64/chrome-headless-shell
+╔═════════════════════════════════════════════════════════════════════════╗
+║ Looks like Playwright Test or Playwright was just installed or updated. ║
+║ Please run the following command to download new browsers:              ║
+║                                                                         ║
+║     npx playwright install                                              ║
+║                                                                         ║
+║ <3 Playwright Team                                                      ║
+╚═════════════════════════════════════════════════════════════════════════╝
+    at /home/node/.openclaw/workspace/xrift-bot/bot.js:13:34
+    at Object.<anonymous> (/home/node/.openclaw/workspace/xrift-bot/bot.js:119:3) {
+  name: 'Error'
+}
+
+Node.js v22.22.0
+Starting XRift bot: はるぼ
+URL: https://app.xrift.net/instance/1f45bcb9-4e8c-46cc-809d-98c80edab917
+Navigating to page...
+Page loaded
+Nickname entered
+First join button clicked
+Second join button clicked
+Waiting for WebSocket...
+Waiting for WS...
+Waiting for WS...
+Waiting for WS...
+Waiting for WS...
+Waiting for WS...
+Waiting for WS...
+Waiting for WS...
+Waiting for WS...
+Waiting for WS...
+Waiting for WS...
+Waiting for WS...
+Waiting for WS...
+Waiting for WS...
+Waiting for WS...
+Waiting for WS...
+Waiting for WS...
+Waiting for WS...
+Waiting for WS...
+Waiting for WS...
+Waiting for WS...
+Waiting for WS...
+Waiting for WS...
+Waiting for WS...
+Waiting for WS...
+Waiting for WS...
+Waiting for WS...
+Waiting for WS...
+Waiting for WS...
+Waiting for WS...
+Waiting for WS...
+WebSocket timeout
+Page state: 
+    <div id="root"><div class="_container_1abjc_1 "><div class="_card_1abjc_12 _glass_1abjc_19" style="max-width: 400px;"><header class="_header_1gs7c_1"><h1 class="_title_1gs7c_6"><img alt="XRift" class="_logoImage_1gs7c_18" src="/xrift.svg"></h1></header><div class="_tabContainer_1gs7c_29"><butto
+Error: Error: WS timeout
+    at /home/node/.openclaw/workspace/xrift-bot/bot.js:86:13
+Starting XRift bot: はるぼ
+URL: https://app.xrift.net/instance/1f45bcb9-4e8c-46cc-809d-98c80edab917
+Navigating to page...
+Page loaded
+Step 1: Nickname input
+Nickname entered
+First join button clicked
+Step 2: Wait for 「入室する」 button
+Second join button (入室) clicked
+Step 3: Waiting for WebSocket...
+ WebSocket connected!
+/home/node/.openclaw/workspace/xrift-bot/bot.js:68
+      ws.on('framereceived', frame => console.log('WS RX:', frame.payloadData.toString().substring(0, 80)));
+                                                                              ^
+
+TypeError: Cannot read properties of undefined (reading 'toString')
+    at WebSocket.<anonymous> (/home/node/.openclaw/workspace/xrift-bot/bot.js:68:79)
+    at WebSocket._callHandler (/home/node/.openclaw/workspace/xrift-bot/node_modules/playwright-core/lib/client/eventEmitter.js:66:29)
+    at WebSocket.emit (/home/node/.openclaw/workspace/xrift-bot/node_modules/playwright-core/lib/client/eventEmitter.js:56:12)
+    at Proxy.<anonymous> (/home/node/.openclaw/workspace/xrift-bot/node_modules/playwright-core/lib/client/network.js:586:14)
+    at Proxy._callHandler (/home/node/.openclaw/workspace/xrift-bot/node_modules/playwright-core/lib/client/eventEmitter.js:66:29)
+    at Proxy.emit (/home/node/.openclaw/workspace/xrift-bot/node_modules/playwright-core/lib/client/eventEmitter.js:56:12)
+    at Connection.dispatch (/home/node/.openclaw/workspace/xrift-bot/node_modules/playwright-core/lib/client/connection.js:176:21)
+    at Immediate.<anonymous> (/home/node/.openclaw/workspace/xrift-bot/node_modules/playwright-core/lib/inProcessFactory.js:46:85)
+    at process.processImmediate (node:internal/timers:485:21)
+    at process.callbackTrampoline (node:internal/async_hooks:130:17)
+
+Node.js v22.22.0
+Starting XRift bot: はるぼ
+URL: https://app.xrift.net/instance/1f45bcb9-4e8c-46cc-809d-98c80edab917
+Navigating to page...
+Page loaded
+Step 1: Nickname input
+Nickname entered
+First join button clicked
+Step 2: Wait for 「入室する」 button
+Second join button (入室) clicked
+Step 3: Waiting for WebSocket...
+Waiting for WS... 1000 ms
+Waiting for WS... 2001 ms
+Waiting for WS... 3003 ms
+Waiting for WS... 4005 ms
+Waiting for WS... 5007 ms
+Waiting for WS... 6010 ms
+Waiting for WS... 7013 ms
+Waiting for WS... 8015 ms
+Waiting for WS... 9016 ms
+Waiting for WS... 10018 ms
+Waiting for WS... 11020 ms
+Waiting for WS... 12022 ms
+Waiting for WS... 13024 ms
+Waiting for WS... 14026 ms
+Waiting for WS... 15028 ms
+Waiting for WS... 16030 ms
+Waiting for WS... 17032 ms
+Waiting for WS... 18033 ms
+Waiting for WS... 19033 ms
+Waiting for WS... 20034 ms
+Waiting for WS... 21036 ms
+Waiting for WS... 22038 ms
+Waiting for WS... 23040 ms
+Waiting for WS... 24042 ms
+Waiting for WS... 25044 ms
+Waiting for WS... 26046 ms
+Waiting for WS... 27049 ms
+Waiting for WS... 28051 ms
+Waiting for WS... 29053 ms
+Waiting for WS... 30055 ms
+WebSocket timeout after 30s
+Page state: 
+    <div id="root"><div class="_container_1abjc_1 "><div class="_card_1abjc_12 _glass_1abjc_19" style="max-width: 600px;"><div class="_header_1d6zv_1"><h1 class="_title_1d6zv_6">井戸端会議ライトバージョン</h1></div><div class="_info_1d6zv_20"><div class="_infoItem_1d6zv_30"><span class="_infoLabel_1d6zv_36">参加者
+Error: Error: WS timeout
+    at /home/node/.openclaw/workspace/xrift-bot/bot.js:118:13
+Starting XRift bot: はるぼ
+URL: https://app.xrift.net/instance/1f45bcb9-4e8c-46cc-809d-98c80edab917
+Navigating to page...
+Page loaded
+Step 1: Nickname input
+Nickname entered
+First join button clicked
+Step 2: Wait for 「入室する」 button
+Second join button (入室) clicked
+Step 3: Waiting for WebSocket...
+Waiting for WS... 1002 ms
+Waiting for WS... 2004 ms
+Waiting for WS... 3005 ms
+Waiting for WS... 4006 ms
+Waiting for WS... 5008 ms
+Waiting for WS... 6011 ms
+Waiting for WS... 7014 ms
+Waiting for WS... 8016 ms
+Waiting for WS... 9019 ms
+Waiting for WS... 10022 ms
+Waiting for WS... 11025 ms
+Waiting for WS... 12027 ms
+Waiting for WS... 13029 ms
+Waiting for WS... 14030 ms
+Waiting for WS... 15031 ms
+Waiting for WS... 16033 ms
+Waiting for WS... 17035 ms
+Waiting for WS... 18037 ms
+Waiting for WS... 19039 ms
+Waiting for WS... 20041 ms
+Waiting for WS... 21043 ms
+Waiting for WS... 22046 ms
+Waiting for WS... 23048 ms
+Waiting for WS... 24050 ms
+Waiting for WS... 25052 ms
+Waiting for WS... 26053 ms
+Waiting for WS... 27055 ms
+Waiting for WS... 28057 ms
+Waiting for WS... 29058 ms
+Waiting for WS... 30058 ms
+WebSocket timeout after 30s
+Page state: 
+    <div id="root"><div class="_container_1abjc_1 "><div class="_card_1abjc_12 _glass_1abjc_19" style="max-width: 600px;"><div class="_header_1d6zv_1"><h1 class="_title_1d6zv_6">井戸端会議ライトバージョン</h1></div><div class="_info_1d6zv_20"><div class="_infoItem_1d6zv_30"><span class="_infoLabel_1d6zv_36">参加者
+Error: Error: WS timeout
+    at /home/node/.openclaw/workspace/xrift-bot/bot.js:115:13
+Starting XRift bot: はるぼ
+URL: https://app.xrift.net/instance/1f45bcb9-4e8c-46cc-809d-98c80edab917
+Navigating to page...
+Page loaded
+Step 1: Nickname input
+Nickname entered
+First join button clicked
+Step 2: Wait for 「入室する」 button
+Second join button (入室) clicked
+Step 3: Waiting for WebSocket...
+Waiting for WS... 1002 ms
+Waiting for WS... 2004 ms
+Waiting for WS... 3007 ms
+Waiting for WS... 4009 ms
+Waiting for WS... 5011 ms
+Waiting for WS... 6013 ms
+Waiting for WS... 7015 ms
+Waiting for WS... 8017 ms
+Waiting for WS... 9019 ms
+Waiting for WS... 10022 ms
+Waiting for WS... 11024 ms
+Waiting for WS... 12026 ms
+Waiting for WS... 13028 ms
+Waiting for WS... 14030 ms
+Waiting for WS... 15032 ms
+Waiting for WS... 16034 ms
+Waiting for WS... 17036 ms
+Waiting for WS... 18038 ms
+Waiting for WS... 19040 ms
+Waiting for WS... 20042 ms
+Waiting for WS... 21043 ms
+Waiting for WS... 22044 ms
+Waiting for WS... 23046 ms
+Waiting for WS... 24048 ms
+Waiting for WS... 25049 ms
+Waiting for WS... 26050 ms
+Waiting for WS... 27052 ms
+Waiting for WS... 28054 ms
+Waiting for WS... 29055 ms
+Waiting for WS... 30057 ms
+WebSocket timeout after 30s
+Page state: 
+    <div id="root"><div class="_container_1abjc_1 "><div class="_card_1abjc_12 _glass_1abjc_19" style="max-width: 600px;"><div class="_header_1d6zv_1"><h1 class="_title_1d6zv_6">井戸端会議ライトバージョン</h1></div><div class="_info_1d6zv_20"><div class="_infoItem_1d6zv_30"><span class="_infoLabel_1d6zv_36">参加者
+Error: Error: WS timeout
+    at /home/node/.openclaw/workspace/xrift-bot/bot.js:115:13
+Starting XRift bot: はるぼ
+URL: https://app.xrift.net/instance/1f45bcb9-4e8c-46cc-809d-98c80edab917
+Navigating to page...
+Page loaded
+Step 1: Nickname input
+Nickname entered
+First join button clicked
+Step 2: Wait for 「入室する」 button
+Second join button (入室) clicked
+Step 3: Waiting 25s for world to initialize...
+World initialized
+Step 4: Waiting for WebSocket...
+Waiting for API WS... 1002 ms
+Waiting for API WS... 2004 ms
+Waiting for API WS... 3007 ms
+Waiting for API WS... 4008 ms
+Waiting for API WS... 5010 ms
+Waiting for API WS... 6012 ms
+Waiting for API WS... 7014 ms
+Waiting for API WS... 8016 ms
+Waiting for API WS... 9018 ms
+Waiting for API WS... 10021 ms
+Waiting for API WS... 11023 ms
+Waiting for API WS... 12025 ms
+Waiting for API WS... 13028 ms
+Starting XRift bot: はるぼ
+URL: https://app.xrift.net/instance/1f45bcb9-4e8c-46cc-809d-98c80edab917
+Navigating to page...
+Page loaded
+Step 1: Nickname input
+Waiting for API WS... 14029 ms
+Waiting for API WS... 15030 ms
+Nickname entered
+First join button clicked
+Step 2: Wait for 「入室する」 button
+Second join button (入室) clicked
+Step 3: Waiting 25s for world to initialize...
+Waiting for API WS... 16033 ms
+Waiting for API WS... 17034 ms
+Waiting for API WS... 18037 ms
+Waiting for API WS... 19039 ms
+Waiting for API WS... 20041 ms
+Waiting for API WS... 21043 ms
+Waiting for API WS... 22046 ms
+Waiting for API WS... 23047 ms
+Waiting for API WS... 24049 ms
+Waiting for API WS... 25052 ms
+Waiting for API WS... 26054 ms
+Waiting for API WS... 27056 ms
+Waiting for API WS... 28057 ms
+Waiting for API WS... 29059 ms
+Waiting for API WS... 30060 ms
+Waiting for API WS... 31062 ms
+Waiting for API WS... 32064 ms
+Waiting for API WS... 33066 ms
+Waiting for API WS... 34068 ms
+Waiting for API WS... 35070 ms
+Waiting for API WS... 36072 ms
+Waiting for API WS... 37074 ms
+Waiting for API WS... 38075 ms
+Waiting for API WS... 39077 ms
+Waiting for API WS... 40078 ms
+World initialized
+Step 4: Waiting for XRIFT WS via native hook...
+Waiting for native WS... 4 ms
+Waiting for API WS... 41080 ms
+Waiting for native WS... 1008 ms
+Waiting for API WS... 42082 ms
+Waiting for native WS... 2011 ms
+Waiting for API WS... 43084 ms
+Waiting for native WS... 3018 ms
+Waiting for API WS... 44085 ms
+Waiting for native WS... 4020 ms
+Waiting for API WS... 45086 ms
+Waiting for native WS... 5023 ms
+Waiting for API WS... 46088 ms
+Waiting for native WS... 6026 ms
+Waiting for API WS... 47089 ms
+Waiting for native WS... 7030 ms
+Waiting for API WS... 48089 ms
+Waiting for native WS... 8034 ms
+Waiting for API WS... 49090 ms
+Waiting for native WS... 9040 ms
+Waiting for API WS... 50091 ms
+Waiting for native WS... 10046 ms
+Waiting for API WS... 51093 ms
+Waiting for native WS... 11051 ms
+Waiting for API WS... 52094 ms
+Waiting for native WS... 12055 ms
+Waiting for API WS... 53095 ms
+Waiting for native WS... 13059 ms
+Waiting for API WS... 54097 ms
+Waiting for native WS... 14063 ms
+Waiting for API WS... 55098 ms
+Waiting for native WS... 15067 ms
+Waiting for API WS... 56100 ms
+Waiting for native WS... 16073 ms
+Waiting for API WS... 57102 ms
+Waiting for native WS... 17078 ms
+Waiting for API WS... 58104 ms
+Waiting for native WS... 18083 ms
+Waiting for API WS... 59105 ms
+Waiting for native WS... 19088 ms
+Waiting for API WS... 60107 ms
+WebSocket timeout after 60s
+Page state: 
+    <div id="root"><div class="_container_1abjc_1 "><div class="_card_1abjc_12 _glass_1abjc_19" style="max-width: 600px;"><div class="_header_1d6zv_1"><h1 class="_title_1d6zv_6">井戸端会議ライトバージョン</h1></div><div class="_info_1d6zv_20"><div class="_infoItem_1d6zv_30"><span class="_infoLabel_1d6zv_36">参加者
+Error: Error: WS timeout
+    at /home/node/.openclaw/workspace/xrift-bot/bot.js:127:13
+Waiting for native WS... 20094 ms
+Waiting for native WS... 21100 ms
+Waiting for native WS... 22105 ms
+Waiting for native WS... 23111 ms
+Waiting for native WS... 24115 ms
+Waiting for native WS... 25118 ms
+Waiting for native WS... 26120 ms
+Waiting for native WS... 27124 ms
+Waiting for native WS... 28128 ms
+Waiting for native WS... 29130 ms
+Waiting for native WS... 30135 ms
+Waiting for native WS... 31140 ms
+Waiting for native WS... 32144 ms
+Waiting for native WS... 33146 ms
+Waiting for native WS... 34151 ms
+Waiting for native WS... 35155 ms
+Waiting for native WS... 36160 ms
+Waiting for native WS... 37165 ms
+Waiting for native WS... 38167 ms
+Waiting for native WS... 39171 ms
+Waiting for native WS... 40177 ms
+Waiting for native WS... 41181 ms
+Waiting for native WS... 42185 ms
+Waiting for native WS... 43187 ms
+Waiting for native WS... 44191 ms
+Waiting for native WS... 45195 ms
+Waiting for native WS... 46198 ms
+Waiting for native WS... 47204 ms
+Waiting for native WS... 48207 ms
+Waiting for native WS... 49211 ms
+Waiting for native WS... 50216 ms
+Waiting for native WS... 51220 ms
+Waiting for native WS... 52225 ms
+Waiting for native WS... 53230 ms
+Waiting for native WS... 54236 ms
+Waiting for native WS... 55239 ms
+Waiting for native WS... 56241 ms
+Waiting for native WS... 57245 ms
+Waiting for native WS... 58247 ms
+Waiting for native WS... 59249 ms
+Native WS timeout after 60s
+Page state: 
+    <div id="root"><div class="_container_1abjc_1 "><div class="_card_1abjc_12 _glass_1abjc_19" style="max-width: 600px;"><div class="_header_1d6zv_1"><h1 class="_title_1d6zv_6">井戸端会議ライトバージョン</h1></div><div class="_info_1d6zv_20"><div class="_infoItem_1d6zv_30"><span class="_infoLabel_1d6zv_36">参加者
+Error: Error: Native WS timeout
+    at /home/node/.openclaw/workspace/xrift-bot/bot.js:123:13
