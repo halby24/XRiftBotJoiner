@@ -1,0 +1,43 @@
+# Git ignore files for XRiftBotJoiner
+
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+.pnpm-debug.log*
+
+# Bot logs
+*.log
+error.png
+bot.log
+
+# Package locks (optional, comment out if needed)
+# package-lock.json
+# yarn.lock
+
+# Playwright browser cache
+*.cache/
+
+# Environment files
+.env
+.env.local
+.env.*.local
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Misc
+coverage/
+.nyc_output/
+
+# Playwright artifacts
+playwright-report/
+test-results/
